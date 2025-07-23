@@ -1,9 +1,9 @@
 # Image-Editing
-Tools for Bachelorthesis in which a Training Set was created on which then an SVM for object detection was trained.
-The Training Set consists of images of objects from a floor plan.
+Tools for a Bachelor's thesis in which a training set was created on which an SVM for object detection was then trained.
+The training set consists of images of objects from a floor plan.
 
-Cut_Image.cpp:                This tool utilizes a trackbar and a scaling to cut out small objects from a floorplan and then converts
-                              them to the same size. Used for creation of Training Set
+Cut_Image.cpp:                This tool uses a trackbar and scaling to cut small objects out of a floor plan and convert
+                              them to the same size. Used for creation of training set.
                               
-Image_Data_Augmentation.cpp:  This tool rotates and mirrors all images from given folders to enlarge Data Set.
+Image_Data_Augmentation.cpp:  This tool rotates and mirrors all images from the specified folders to enlarge the data set.
                               
